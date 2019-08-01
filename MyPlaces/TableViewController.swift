@@ -40,7 +40,14 @@ class TableViewController: UITableViewController {
 
         cell.textLabel?.text = restaurantNames[indexPath.row]
         cell.imageView?.image = UIImage(named: restaurantNames[indexPath.row])
+        
         return cell
+    }
+    
+    // MARK: - Table View Delegete
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 85
     }
     
     /*
