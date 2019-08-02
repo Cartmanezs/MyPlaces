@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE7E043E22F32202008218A2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E043D22F32202008218A2 /* TableViewController.swift */; };
+		CE7E044022F4950E008218A2 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E043F22F4950E008218A2 /* CustomTableViewCell.swift */; };
 		CEF851F122EC554600675798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF851F022EC554600675798 /* AppDelegate.swift */; };
 		CEF851F622EC554600675798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF851F422EC554600675798 /* Main.storyboard */; };
 		CEF851F822EC554900675798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF851F722EC554900675798 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		CE7E043D22F32202008218A2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CE7E043F22F4950E008218A2 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		CEF851ED22EC554600675798 /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF851F022EC554600675798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF851F522EC554600675798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				CEF851F022EC554600675798 /* AppDelegate.swift */,
 				CEF851F422EC554600675798 /* Main.storyboard */,
+				CE7E043F22F4950E008218A2 /* CustomTableViewCell.swift */,
 				CE7E043D22F32202008218A2 /* TableViewController.swift */,
 				CEF851F722EC554900675798 /* Assets.xcassets */,
 				CEF851F922EC554900675798 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7E044022F4950E008218A2 /* CustomTableViewCell.swift in Sources */,
 				CEF851F122EC554600675798 /* AppDelegate.swift in Sources */,
 				CE7E043E22F32202008218A2 /* TableViewController.swift in Sources */,
 			);
