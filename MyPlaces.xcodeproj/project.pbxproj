@@ -14,6 +14,7 @@
 		CE7E044422F5AFA4008218A2 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E044322F5AFA4008218A2 /* NewPlaceViewController.swift */; };
 		CE7E044622FAFB6E008218A2 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E044522FAFB6E008218A2 /* StorageManager.swift */; };
 		CE7E044C22FC21B1008218A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7E044B22FC21B0008218A2 /* Assets.xcassets */; };
+		CE7E044E23004FB8008218A2 /* RaitingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E044D23004FB8008218A2 /* RaitingControl.swift */; };
 		CEF851F122EC554600675798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF851F022EC554600675798 /* AppDelegate.swift */; };
 		CEF851F622EC554600675798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF851F422EC554600675798 /* Main.storyboard */; };
 		CEF851FB22EC554900675798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF851F922EC554900675798 /* LaunchScreen.storyboard */; };
@@ -29,6 +30,7 @@
 		CE7E044322F5AFA4008218A2 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 		CE7E044522FAFB6E008218A2 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		CE7E044B22FC21B0008218A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Desktop/swiftBOOK/[sharewood.biz] 5. Курс Приложения на основе UITableView/Конечный проект/MyPlaces 2/MyPlaces/Assets.xcassets"; sourceTree = "<group>"; };
+		CE7E044D23004FB8008218A2 /* RaitingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaitingControl.swift; sourceTree = "<group>"; };
 		CEF851ED22EC554600675798 /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF851F022EC554600675798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF851F522EC554600675798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				CE7E044522FAFB6E008218A2 /* StorageManager.swift */,
+				CE7E044D23004FB8008218A2 /* RaitingControl.swift */,
 				CEF851EF22EC554600675798 /* MyPlaces */,
 				CEF851EE22EC554600675798 /* Products */,
 				F08E5BCD6F06296B8FA30D81 /* Pods */,
@@ -227,6 +230,7 @@
 				CE7E044422F5AFA4008218A2 /* NewPlaceViewController.swift in Sources */,
 				CE7E044622FAFB6E008218A2 /* StorageManager.swift in Sources */,
 				CEF851F122EC554600675798 /* AppDelegate.swift in Sources */,
+				CE7E044E23004FB8008218A2 /* RaitingControl.swift in Sources */,
 				CE7E043E22F32202008218A2 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
